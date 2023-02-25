@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>teste</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="hide">
+
+  <div id="container">
+
+    <div class="timer">
+      <div id="txt">
+        <span id="minutes">00</span>
+        <span>:</span>
+        <span id="seconds">00</span>
+      </div>
+  
+      <div id="buttons__container">
+        <button id="play" ><img src="./buttonsIcons/play.svg" alt=""></button>
+        <button id="pause"><img src="./buttonsIcons/pause.svg" alt=""></button>
+        <button id="stop"><img src="./buttonsIcons/stop.svg" alt=""></button>
+        <button id="add"><img src="./buttonsIcons/+.svg" alt=""></button>
+        <button id="remove"><img src="./buttonsIcons/-.svg" alt=""></button>
+      </div>
+    </div>
+
+    <div class="sound">
+
+      <button id="sound-florest">
+        <img src="./assets/florest.svg" alt="">
+        <audio id="bg-audio-florest" 
+        src="./sounds/Floresta.wav"></audio>
+      </button>
+
+      <button id="sound-fireplace">
+        <img src="./assets/rain.svg" alt="">
+        <audio id="bg-audio-rain" src="./sounds/Chuva.wav"></audio>
+      </button>
+
+      <button id="sound-coffee-machine">
+        <img src="./assets/coffeMachine.svg" alt="">
+        <audio id="bg-audio-coffee-machine" src="./sounds/Cafeteria.wav"></audio>
+      </button>
+
+      <button id="sound-fireplace">
+        <img src="./assets/firePlace.svg" alt="">
+        <audio id="bg-audio-fire-place" src="./sounds/Lareira.wav"></audio>
+      </button>
+
+    </div>
+
+  </div>
+
+
+  <script src="./index.js"></script>
+</body>
+</html>
